@@ -5,8 +5,6 @@ A Command line tool implementation of Todo list made with nodejs.
 
 ## Usage
 
----
-
 ``todos list``
 
 Outputs the list of task.
