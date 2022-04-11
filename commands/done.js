@@ -2,7 +2,11 @@ import conf from 'conf';
 import chalk from 'chalk';
 
 const parse_value = (value) => {
-  return parseInt(value);
+  const value = parseInt(value);
+  
+  if (isNaN(value)) throw new error('Invalid value');
+
+  return value;
 };
 
 const done = (str) => {
